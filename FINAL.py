@@ -47,7 +47,7 @@ def recepcion_de_productos():
 
     if respuesta == "si":
         update_stock(guia_remision)
-        print("\nGuía firmada ✅")
+        print("\nGuía firmada")
     else:
         motivo = input("Registrar motivo de rechazo: ").strip()
         while not motivo:
